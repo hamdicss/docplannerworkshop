@@ -1,0 +1,504 @@
+main{
+  margin:0;
+  padding: 0;
+}
+/*
+logo docplanner
+*/
+.logo_docplanner{
+    width: 280px;
+    height: 150px;
+}
+/*
+put list elements horizontal
+*/
+.menu{
+    display: flex;
+}
+/*
+designe list item 
+*/
+.menu-item{
+    list-style: none;
+    margin-right: 20px;
+    cursor: pointer;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: grey;
+}
+/*
+list item and imagelogo are inline
+*/
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: -40px;;
+}
+/*
+no display deprtement item
+*/
+.drop-menu {
+    display: none;
+  }
+/*
+design deprtement item
+*/  
+.drop-menu-item {
+  list-style: none;
+  margin-top: 10px;
+}
+/*
+cursor in department  deprtement item is displyed
+*/  
+.menu-item:hover .drop-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: -40px;
+  background-color: white;
+}
+/*
+  deprtement item is displyed with grey color
+*/  
+.drop-menu-item {
+    color: grey;
+  }
+/*
+  item menu change color if cursor 
+*/ 
+  .menu-item:hover {
+    color: rgb(12, 178, 156);
+  }
+/*
+  make title in center of page 
+*/
+.title {
+    text-align: center;
+    padding-top: 100px;
+  }
+/*
+  desing text title 
+*/
+  .title h1 {
+    font: 300 34px "Work Sans", Arial, sans-serif;
+    line-height: 44.2px;
+    color: rgb(0, 179, 155);
+  }
+/*
+  display paragraphe inline
+*/
+  .info{
+      display: flex;
+      justify-content: space-around;
+      
+  }
+/*
+  design ph 1 
+*/
+  .info .info1 {
+      width:45%;
+      font:400 16px Roboto, Arial, sans-serif;
+      color: rgb(116,116,116);
+      line-height: 28px;
+      text-align: justify;
+      margin-left: 200px;
+      margin-right:30 ;
+  }
+/*
+  design ph 2 
+*/
+  .info .info2 {
+    width:45%;
+    font:400 16px Roboto, Arial, sans-serif;
+    color: rgb(116,116,116);
+    line-height: 28px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 200px;
+} 
+/*
+  three box en horizontale 
+*/
+.threebox{
+    display: flex;
+    justify-content: space-around;
+    
+}
+/*
+  box 1 design
+*/
+
+.box1{
+    background-color: #19D1B8;
+    width: 290px;
+    height: 333px;
+    border-radius: 10px;
+    margin-left: 190px;
+
+}
+/*
+  design text for three box
+*/
+
+.box1 i,.box2 i ,.box3 i{
+    margin-top: 30px;
+    margin-left:30px;
+    margin-bottom:0px;
+    color: white;
+}
+/*
+  design text for three box
+*/
+.box1 h1, .box2 h1 ,.box3 h1{
+    margin-top: 10px;
+    margin-left:30px;
+    margin-bottom:0px;
+    color: white;
+}
+/*
+  design text for three box
+*/
+.box1 h2 ,.box2 h2 ,.box3 h2{
+    margin-top: 20px;
+    margin-left:30px;
+    margin-right:20px;
+    margin-bottom:0px;
+    font-family: arial;
+    color: white;
+}
+/*
+  design select for box1
+*/
+.selectbox1{
+  color: white;
+  margin-left:30px;
+  margin-top: 70px;
+  
+}
+/*
+  design select box
+*/
+.selectbox1 select {
+  background-color: #19D1B8;
+  border:none;
+  text-decoration:underline;
+  color: white;
+  font-size: 15px;
+
+}
+/*
+  design select if open list
+*/
+option{
+  background-color: white;
+  color:black;
+  
+}
+
+
+/*
+  design select box2
+*/
+.box2{
+  background-color: rgb(30, 106, 247);
+  width: 290px;
+  height: 333px;
+  border-radius: 10px;
+
+
+}
+/*
+  design select box2
+*/
+.selectbox2{
+  color: white;
+  margin-left:30px;
+  margin-top: 70px;
+  
+}
+/*
+  design select box2
+*/
+.selectbox2 select {
+  background-color: rgb(30, 106, 247);
+  border:none;
+  text-decoration:underline;
+  color: white;
+  font-size: 15px;
+
+}
+/*
+  design select box3
+*/
+.box3{
+  background-color: rgb(27, 39, 52);
+  width: 290px;
+  height: 333px;
+  border-radius: 10px;
+  margin-right: 190px;
+
+
+}
+/*
+  design select box3
+*/
+.selectbox3{
+  color: white;
+  margin-left:30px;
+  margin-top: 40px;
+}
+/*
+  design select box3
+*/
+.selectbox3 select {
+  background-color: rgb(27, 39, 52);
+  border:none;
+  text-decoration:underline;
+  color: white;
+  margin-bottom: 20px ;
+  font-size: 15px;
+}
+.itemicon{
+  display: flex;
+  padding-left: 200px;
+}
+.paricon h1{
+  font-size: 26px;
+  color:rgb(0, 204, 177);
+}
+.paricon{
+  width: 230px;
+  height: 200px;
+}
+.listicon , .listiconn{
+  display: flex;
+  list-style: none;
+}
+.listicon li  , .listiconn li {
+  font-size: 20px;
+  color: rgb(160, 159, 158);
+  cursor: pointer;
+}
+.listicon {
+  margin-bottom:50px;
+  margin-top:20px;
+}
+.listicon li , .listiconn li{
+  margin-left: 60px;
+}
+.listicon li:hover {
+  color: rgb(0, 204, 177);
+}
+.listiconn li:hover {
+  color: rgb(0, 204, 177);
+}
+.platform1{
+  display: flex;
+  background-color: rgb(222, 248, 246);
+  width: 100%;
+  height: 600px;
+
+}
+.careeblanche1, .careeblanche2 ,.careeblanche3 ,.careeblanche4{
+  width: 225px;
+  height: 240px;
+  background-color: white;
+  text-align: center;
+
+}
+.careeblanche1 i, .careeblanche2 i ,.careeblanche3 i ,.careeblanche4 i{
+  color: #19D1B8;
+  font-size: 40px;
+  margin-top: 30px;
+}
+.careeblanche1 h3, .careeblanche2 h3 ,.careeblanche3 h3 ,.careeblanche4 h3{
+  color: #19D1B8;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.careeblanche1 p, .careeblanche2 p ,.careeblanche3 p ,.careeblanche4 p{
+  color:rgb(163, 157, 157) ;
+  font-size:14px;
+}
+.careeblanche1 ,.careeblanche3{
+  margin-top: 40px;
+}
+.careeblanche2 ,.careeblanche4{
+  margin-top: 20px;
+  margin-right: 60px;
+}
+.righthelf{  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+  height: 600px;
+}
+.paragimage{
+  width: 50%;
+  height: 600px;
+  overflow: hidden;
+}
+.image {
+  margin-top: 50px;
+  margin-left:50px; 
+}
+.paragraphe{
+  text-align: center;
+  margin-top:70px;
+}
+.paragraphe h1{
+  color: #19D1B8;
+  font-size: 34px;
+}
+.paragraphe p{
+  color:rgb(163, 157, 157) ;
+  font-size:14 px;
+  margin-left: 120px;
+}
+/*
+middle improve
+*/
+.middle {
+  text-align: center;
+  padding-top: 80px;
+}
+.middle h1 {
+  font: 300 30px "Work Sans", Arial, sans-serif;
+  color: rgb(0, 179, 155);
+}
+.middle p {
+  font: 300 16px "Work Sans", Arial, sans-serif;
+  color: rgb(163, 157, 157);
+}
+.warsaw ,.rome ,.barcelona ,.istanbul ,.mexico-city ,.curitiba ,.bologna{
+  width: 300px;
+  height: 340px;
+  border-radius: 10px;
+
+
+}
+.titlebauttom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.titlebauttom h1{
+  color: rgb(163, 157, 157);;
+  margin-left:20px;
+  font-size: 20px;
+
+}
+.titlebauttom h1{
+  color: rgb(163, 157, 157);;
+  margin-left:20px;
+
+}
+.titlebauttom button{
+  font-size:10px ;
+  color: white;
+  margin-right:20px;
+  background-color: rgb(66, 132, 218);
+  border-radius: 4px;
+  padding:10px 10px;
+  cursor: pointer;
+  height: 35px;
+}
+.country{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+ 
+}
+.endsite {
+  text-align: center;
+  padding-top: 80px;
+}
+.endsite h1 {
+  font: 300 27px "Work Sans", Arial, sans-serif;
+  color: rgb(51, 49, 49);
+}
+.endsite button{
+  font-size:15px ;
+  color: white;
+  margin-right:20px;
+  background-color: rgb(66, 132, 218);
+  border-radius: 4px;
+  height: 40px;
+  width: 200px;
+  cursor: pointer;
+}
+.foot{
+  text-align: center;
+}
+.foot h1, .foot p{
+  color: rgb(194, 191, 189);
+  font-size: 14px;
+}
+.foot a{
+  text-decoration: none;
+}
+.imagec img{
+  width:300px;
+  border-radius: 6px;
+}
+.warsaw:hover{
+  box-shadow: 0 0 15px grey;
+ 
+}
+.barcelona:hover{
+  box-shadow: 0 0 15px grey;
+ 
+}
+.istanbul:hover{
+  box-shadow: 0 0 15px grey;
+ 
+}
+.rome:hover{
+  box-shadow: 0 0 15px grey;
+ 
+}
+
+.mexico-city:hover{
+  box-shadow: 0 0 15px grey;
+ 
+}
+.bologna:hover{
+  box-shadow: 0 0 15px grey;
+ 
+}
+.curitiba:hover{
+  box-shadow: 0 0 15px grey;
+ 
+}
+.endsite button:hover{
+  background-color: rgb(9, 79, 172);
+
+}
+.titlebauttom button:hover{
+  background-color: rgb(9, 79, 172);
+
+}
+.warsaw ,.rome{
+  margin-bottom:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
